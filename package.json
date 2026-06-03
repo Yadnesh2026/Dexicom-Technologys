@@ -1,0 +1,25 @@
+{
+  "name": "dexicom-technologys",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:client": "vite client --host 0.0.0.0",
+    "dev:server": "node server/src/server.js",
+    "build": "vite build client",
+    "preview": "vite preview --host 0.0.0.0",
+    "check:server": "node --check server/src/server.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "framer-motion": "^11.18.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "vite": "^6.0.7"
+  },
+  "devDependencies": {}
+}
