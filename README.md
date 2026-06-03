@@ -1,6 +1,6 @@
 # Dexicom Technologies
 
-A modern startup business website for Dexicom Technologies, built with React.js, plain CSS, Framer Motion, React Icons, Node.js, and Express.js.
+A modern startup business website for Dexicom Technologies, built with React.js, plain CSS, Framer Motion, React Icons, Node.js, and Express.js
 
 ## Project Structure
 
