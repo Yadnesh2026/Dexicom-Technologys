@@ -330,7 +330,7 @@ function Contact() {
           {status && <p className="form-status">{status}</p>}
         </form>
         <div className="contact-info">
-          <h3>Dexicom Technologys</h3>
+          <h3>Dexmap Technologys</h3>
           <p>Email: hello@dexicomtechnologys.com</p>
           <p>Phone: +91 98765 43210</p>
           <div className="social-links">
