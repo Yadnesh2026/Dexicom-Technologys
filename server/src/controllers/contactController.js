@@ -11,7 +11,7 @@ export function createContact(req, res) {
   enquiries.push(enquiry);
 
   res.status(201).json({
-    message: 'Thank you. Dexicom Technologys will contact you soon.',
+    message: 'Thank you. Dexmap Technologys will contact you soon.',
     enquiry
   });
 }

@@ -22,7 +22,7 @@ import {
 import { SiExpress, SiMongodb } from 'react-icons/si';
 import { motion } from 'framer-motion';
 
-const companyName = 'Dexicom Technologys';
+const companyName = 'Dexmap Technologys';
 
 const services = [
   ['Website Development', 'Fast, responsive websites designed to turn visitors into customers.', FaCode],
@@ -181,7 +181,7 @@ function Hero() {
 function About() {
   return (
     <section id="about" className="section">
-      <SectionHeading eyebrow="Who We Are" title="A technology partner for ambitious businesses" text="Dexicom Technologys helps startups and businesses design, build, and launch digital products with clarity." />
+      <SectionHeading eyebrow="Who We Are" title="A technology partner for ambitious businesses" text="Dexmap Technologys helps startups and businesses design, build, and launch digital products with clarity." />
       <div className="about-grid">
         <motion.article className="info-card" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}>
           <h3>Mission</h3>
@@ -318,7 +318,7 @@ function Contact() {
 
   return (
     <section id="contact" className="section contact-section">
-      <SectionHeading eyebrow="Contact" title="Start your next digital project" text="Share your idea and Dexicom Technologys will help you plan the next step." />
+      <SectionHeading eyebrow="Contact" title="Start your next digital project" text="Share your idea and Dexmap Technologys will help you plan the next step." />
       <div className="contact-grid">
         <form className="contact-form" onSubmit={submitForm}>
           <input name="name" placeholder="Name" value={form.name} onChange={updateField} required minLength="2" />
@@ -331,7 +331,7 @@ function Contact() {
         </form>
         <div className="contact-info">
           <h3>Dexmap Technologys</h3>
-          <p>Email: hello@dexicomtechnologys.com</p>
+          <p>Email: hello@dexmaptechnologys.com</p>
           <p>Phone: +91 98765 43210</p>
           <div className="social-links">
             <a href="https://www.linkedin.com/" aria-label="LinkedIn"><FaLinkedin /></a>
@@ -366,7 +366,7 @@ function Footer() {
         <h4>Legal</h4>
         <a href="#home">Privacy Policy</a>
         <a href="#home">Terms & Conditions</a>
-        <p>Copyright © 2026 Dexicom Technologys</p>
+        <p>Copyright © 2026 Dexmap Technologys</p>
       </div>
     </footer>
   );
