@@ -23,7 +23,7 @@ import { SiExpress, SiMongodb } from 'react-icons/si';
 import { motion } from 'framer-motion';
 
 const companyName = 'Dexmap Technologies';
-const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const apiBaseUrl = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? 'https://dexicom-technologys.onrender.com' : 'http://localhost:5000');
 
 const services = [
   ['Website Development', 'Fast, responsive websites designed to turn visitors into customers.', FaCode],
