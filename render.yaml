@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: dexicom-technologys-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CLIENT_URL
+        sync: false
+
+  - type: web
+    name: dexicom-technologys-site
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./client/dist
+    envVars:
+      - key: VITE_API_URL
+        sync: false

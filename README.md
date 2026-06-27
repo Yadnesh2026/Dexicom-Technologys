@@ -1,52 +1,54 @@
-# DexMap Technologies
+# Dexicom Technologys
 
-A modern startup business website for Dexmap Technologies, built with React.js, plain CSS, Framer Motion, React Icons, Node.js, and Express.js
+A modern startup business website for Dexicom Technologys, built with React.js, plain CSS, Framer Motion, React Icons, Node.js, and Express.js.
 
 ## Project Structure
 
 ```text
 client/
-├── index.html
-├── src/
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── components/
-│   └── assets/
-
+  index.html
+  src/
+    App.jsx
+    main.jsx
+    components/
+    assets/
 server/
-└── src/
-    ├── server.js
-    ├── controllers/
-    ├── middleware/
-    ├── models/
-    └── routes/
+  src/
+    server.js
+    controllers/
+    middleware/
+    models/
+    routes/
 ```
 
 ## Run Locally
 
-### Install dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Start frontend
+Start frontend:
 
 ```bash
 npm run dev:client
 ```
 
-### Start backend
+Start backend in another terminal:
 
 ```bash
 npm run dev:server
 ```
 
-
 ## Backend API
 
-### Contact Form Endpoint
+Contact form endpoint:
 
-```http
+```text
 POST http://localhost:5000/api/contact
 ```
+
+## Deployment
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md).

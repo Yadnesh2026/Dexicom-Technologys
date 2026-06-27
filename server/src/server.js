@@ -11,12 +11,16 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:5173' }));
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.json({ message: 'Dexicom Technologys API is running. Use /api/health to check status.' });
+});
+
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'Dexmap Technologys API is running' });
+  res.json({ status: 'ok', message: 'Dexicom Technologys API is running' });
 });
 
 app.use('/api/contact', contactRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Dexmap Technologys server running on http://localhost:${PORT}`);
+  console.log(`Dexicom Technologys server running on http://localhost:${PORT}`);
 });
