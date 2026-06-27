@@ -1,5 +1,5 @@
 {
-  "name": "Dexmap Technologies",
+  "name": "dexmap-technologies",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -17,6 +17,8 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "framer-motion": "^11.18.2",
+    "googleapis": "^144.0.0",
+    "nodemailer": "^6.9.16",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",

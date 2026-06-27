@@ -1,6 +1,6 @@
-# Dexmap Technologies
+# Dexicom Technologys
 
-A modern startup business website for Dexmap Technologies, built with React.js, plain CSS, Framer Motion, React Icons, Node.js, and Express.js.
+A modern startup business website for Dexicom Technologys, built with React.js, plain CSS, Framer Motion, React Icons, Node.js, and Express.js.
 
 ## Project Structure
 
@@ -48,6 +48,8 @@ Contact form endpoint:
 ```text
 POST http://localhost:5000/api/contact
 ```
+
+Contact submissions can be saved to Google Sheets and can send an automatic thank-you email when the Render environment variables are configured.
 
 ## Deployment
 

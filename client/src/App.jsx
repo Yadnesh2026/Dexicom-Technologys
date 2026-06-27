@@ -332,7 +332,7 @@ function Contact() {
         </form>
         <div className="contact-info">
           <h3>Dexmap Technologies</h3>
-          <p>Email: hello@Dexmap Technologies.com</p>
+          <p>Email: info@DexmapTechnologies.com</p>
           <p>Phone: +91 98765 43210</p>
           <div className="social-links">
             <a href="https://www.linkedin.com/" aria-label="LinkedIn"><FaLinkedin /></a>
