@@ -1,6 +1,6 @@
-# Dexicom Technologys
+# Dexmap Technologies
 
-A modern startup business website for Dexicom Technologys, built with React.js, plain CSS, Framer Motion, React Icons, Node.js, and Express.js.
+A modern startup business website for Dexmap Technologies, built with React.js, plain CSS, Framer Motion, React Icons, Node.js, and Express.js.
 
 ## Project Structure
 
