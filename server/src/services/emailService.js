@@ -24,10 +24,13 @@ export async function sendThankYouEmail(enquiry) {
   }
 
   const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    connectionTimeout: 10000,
-    greetingTimeout: 10000,
-    socketTimeout: 15000,
+    host: 'smtp.gmail.com',
+    port: 587,
+    secure: false,
+    requireTLS: true,
+    connectionTimeout: 20000,
+    greetingTimeout: 20000,
+    socketTimeout: 30000,
     auth: {
       user: emailUser,
       pass: emailAppPassword
