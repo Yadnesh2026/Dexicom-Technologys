@@ -13,7 +13,16 @@ export async function createContact(req, res) {
   try {
     enquiries.push(enquiry);
     await appendEnquiryToSheet(enquiry);
-    await sendThankYouEmail(enquiry);
+
+    sendThankYouEmail(enquiry)
+      .then((result) => {
+        if (result?.sent) {
+          console.log(`Thank-you email sent to ${enquiry.email}`);
+        }
+      })
+      .catch((error) => {
+        console.error('Thank-you email failed:', error);
+      });
 
     res.status(201).json({
       message: 'Thank you. Dexmap Technologies will contact you soon.',

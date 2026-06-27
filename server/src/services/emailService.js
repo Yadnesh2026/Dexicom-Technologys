@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer';
 
-const emailUser = process.env.EMAIL_USER;
-const emailAppPassword = process.env.EMAIL_APP_PASSWORD;
+const emailUser = process.env.EMAIL_USER?.trim();
+const emailAppPassword = process.env.EMAIL_APP_PASSWORD?.replace(/\s+/g, '');
 const emailFromName = process.env.EMAIL_FROM_NAME || 'Dexmap Technologies';
 
 function isEmailConfigured() {
@@ -25,6 +25,9 @@ export async function sendThankYouEmail(enquiry) {
 
   const transporter = nodemailer.createTransport({
     service: 'gmail',
+    connectionTimeout: 10000,
+    greetingTimeout: 10000,
+    socketTimeout: 15000,
     auth: {
       user: emailUser,
       pass: emailAppPassword
@@ -37,7 +40,7 @@ export async function sendThankYouEmail(enquiry) {
 
   await transporter.sendMail({
     from: `"${emailFromName}" <${emailUser}>`,
-    to: enquiry.email,
+    to: enquiry.email?.trim(),
     subject: 'Thank you for contacting Dexmap Technologies',
     text: `Hi ${enquiry.name || 'there'},
 
