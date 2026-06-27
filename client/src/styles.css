@@ -109,16 +109,12 @@ textarea {
   font-weight: 800;
 }
 
-.logo span {
-  display: grid;
-  place-items: center;
-  width: 38px;
-  height: 38px;
-  border: 1px solid rgba(56, 189, 248, 0.45);
+.logo-image {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
   border-radius: 8px;
-  color: #ffffff;
-  background: linear-gradient(135deg, var(--primary), var(--accent), var(--violet));
-  box-shadow: var(--glow);
+  filter: drop-shadow(0 0 18px rgba(56, 189, 248, 0.28));
 }
 
 .nav-links,

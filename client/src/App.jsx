@@ -96,7 +96,7 @@ function Navbar({ isDark, onToggleTheme }) {
   return (
     <header className="navbar">
       <a className="logo" href="#home" onClick={() => setOpen(false)}>
-        <span>D</span>
+        <img src="/default.png" alt={`${companyName} logo`} className="logo-image" />
         {companyName}
       </a>
       <nav className={open ? 'nav-links active' : 'nav-links'}>
@@ -348,7 +348,10 @@ function Footer() {
   return (
     <footer className="footer">
       <div>
-        <a className="logo" href="#home"><span>D</span>{companyName}</a>
+        <a className="logo" href="#home">
+          <img src="/default.png" alt={`${companyName} logo`} className="logo-image" />
+          {companyName}
+        </a>
         <p>Turning Ideas Into Digital Solutions</p>
       </div>
       <div>
