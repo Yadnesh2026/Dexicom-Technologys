@@ -317,6 +317,9 @@ function Contact() {
     }
   };
 
+
+
+  
   return (
     <section id="contact" className="section contact-section">
       <SectionHeading eyebrow="Contact" title="Start your next digital project" text="Share your idea and Dexmap Technologies will help you plan the next step." />
