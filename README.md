@@ -4,6 +4,7 @@ A modern startup business website for Dexicom Technologys, built with React.js, 
 
 ## Project Structure
 
+
 ```text
 client/
   index.html
