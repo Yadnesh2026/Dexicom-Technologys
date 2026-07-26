@@ -316,10 +316,6 @@ function Contact() {
       setStatus('Backend is not running yet. Please start the server and try again.');
     }
   };
-
-
-
-  
   return (
     <section id="contact" className="section contact-section">
       <SectionHeading eyebrow="Contact" title="Start your next digital project" text="Share your idea and Dexmap Technologies will help you plan the next step." />
