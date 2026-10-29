@@ -333,7 +333,7 @@ function Contact() {
         <div className="contact-info">
           <h3>Dexmap Technologies</h3>
           <p>Email: info@DexmapTechnologies.com</p>
-          <p>Phone: +91 98765 43210</p>
+          <p>Phone: +91 99214 69460</p>
           <div className="social-links">
             <a href="https://www.linkedin.com/" aria-label="LinkedIn"><FaLinkedin /></a>
             <a href="https://github.com/" aria-label="GitHub"><FaGithub /></a>
