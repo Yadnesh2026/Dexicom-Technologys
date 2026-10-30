@@ -2,9 +2,7 @@
 
 A modern startup business website for Dexicom Technologys, built with React.js, plain CSS, Framer Motion, React Icons, Node.js, and Express.js.
 
-## Project Structure
-
-
+## Project Structure - 
 
 ```text
 client/
